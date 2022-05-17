@@ -1,0 +1,28 @@
+.headerContainer {
+    min-height: 70px;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+
+    .tabContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+
+        .tab {
+            display: flex;
+            gap: 8px;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 790px) {
+    .headerContainer {
+        min-height: 50px;
+    }
+}
