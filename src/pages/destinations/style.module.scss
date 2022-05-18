@@ -1,19 +1,19 @@
 .destContainer {
-    display: grid;
-    grid-template-columns: 32% 32% 32%;
-    gap: 10px;
-    width: 100%;
-    justify-content: center;
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 768px) {
-    .destContainer {
-        grid-template-columns: 48% 48%;
-    }
+  .destContainer {
+    grid-template-columns: 48% 48%;
+  }
 }
 
 @media only screen and (max-width: 400px) {
-    .destContainer {
-        grid-template-columns: 95%;
-    }
+  .destContainer {
+    grid-template-columns: 95%;
+  }
 }

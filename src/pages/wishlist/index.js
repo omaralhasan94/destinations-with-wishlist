@@ -1,8 +1,17 @@
-import style from './style.module.scss';
+import style from "./style.module.scss";
+import Layout from "../../components/layout";
+import WishlistTable from "../../components/wishlist-table";
+import { useSelector } from "react-redux";
+
 const Wishlist = () => {
-    return (
-        <div className={style.abc}>abc</div>
-    )
-}
+  const wishList = useSelector((state) => state.wishList);
+  return (
+    <Layout>
+      <div className={style.wishlistContainer}>
+        <WishlistTable data={wishList.wishList} />
+      </div>
+    </Layout>
+  );
+};
 
 export default Wishlist;

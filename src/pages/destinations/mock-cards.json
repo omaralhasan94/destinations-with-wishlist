@@ -1,22 +1,32 @@
 [
-    {
-        "name": "Tulkarm",
-        "image": "https://www.palestineremembered.com/GeoPoints/Tulkarm_523/Tulkarm-13303.jpg",
-        "description": "Tulkarm mock data"
-    },
-    {
-        "name": "Nablus",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Nablus%2C_January_2022.jpg",
-        "description": "Nablus mock data"
-    },
-    {
-        "name": "Jenin",
-        "image": "https://www.aljazeera.net/wp-content/uploads/2021/10/1-1.jpg?w=770&resize=770%2C513",
-        "description": "Jenin mock data"
-    },
-    {
-        "name": "ramallah",
-        "image": "https://www.welcometopalestine.com/wp-content/uploads/2016/06/Ramallah-City-Featured.jpg",
-        "description": "Jenin mock data"
-    }
+  {
+    "id": 1,
+    "name": "Tulkarm",
+    "image": "https://www.palestineremembered.com/GeoPoints/Tulkarm_523/Tulkarm-13303.jpg",
+    "description": "Tulkarm mock data"
+  },
+  {
+    "id": 2,
+    "name": "Nablus",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Nablus%2C_January_2022.jpg",
+    "description": "Nablus mock data"
+  },
+  {
+    "id": 3,
+    "name": "Jenin",
+    "image": "https://www.aljazeera.net/wp-content/uploads/2021/10/1-1.jpg?w=770&resize=770%2C513",
+    "description": "Jenin mock data"
+  },
+  {
+    "id": 4,
+    "name": "ramallah",
+    "image": "https://www.welcometopalestine.com/wp-content/uploads/2016/06/Ramallah-City-Featured.jpg",
+    "description": "Jenin mock data"
+  },
+  {
+    "id": 5,
+    "name": "Jericho",
+    "image": "https://www.welcometopalestine.com/wp-content/uploads/2016/06/Ramallah-City-Featured.jpg",
+    "description": "Jericho mock data test"
+  }
 ]
